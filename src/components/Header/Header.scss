@@ -26,14 +26,6 @@
             background-color: rgb(68, 72, 87);
         }
     }
-    .search-result{
-        position: relative;
-        display: flex;
-        min-height: 75px;
-        background-color: white;
-        border-radius: .5rem;
-        color: black;
-    }
 }
 .sidebar.close ~ .header{
     left: 88px;

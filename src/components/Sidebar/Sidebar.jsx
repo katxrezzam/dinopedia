@@ -36,10 +36,10 @@ const Sidebar = () => {
             <div className="menu-container">
                 <div className="menu">
                     <ul className="menu-links">
-                        <SidebarLink path={"/"} icon={faHome} text={"Home"} isClosed={!toggle}/>
+                        <SidebarLink path={"/"} icon={faHome} text={"Inicio"} isClosed={!toggle}/>
                         <SidebarLink path={"/"} icon={faBook} text={"Wiki"} isClosed={!toggle}/>
-                        <SidebarLink path={"/"} icon={faImages} text={"Galery"} isClosed={!toggle}/>
-                        <SidebarLink path={"/"} icon={faAtlas} text={"References"} isClosed={!toggle}/>
+                        <SidebarLink path={"/"} icon={faImages} text={"Galeria"} isClosed={!toggle}/>
+                        <SidebarLink path={"/"} icon={faAtlas} text={"Referencias"} isClosed={!toggle}/>
                     </ul>
                 </div>
             </div>

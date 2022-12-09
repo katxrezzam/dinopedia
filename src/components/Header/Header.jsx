@@ -4,6 +4,7 @@ import { useState } from 'react'
 
 import './Header.scss'
 import InputHeader from './InputHeader/InputHeader'
+import SearchContainer from './SearchContainer/SearchContainer'
 
 const Header = () => {
 
@@ -24,9 +25,7 @@ const Header = () => {
                 query &&
                  
                 (
-                    <div className='search-result'>
-                        {query}
-                    </div>
+                    <SearchContainer result={query}/>
                 )
             }
         </header>

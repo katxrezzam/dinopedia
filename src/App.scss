@@ -3,13 +3,7 @@
     justify-content: center;
     align-items: center;
 }
-.main{
-    position: relative;
-    left: 250px;
-    width: calc(100% - 250px);
-    height: 100vh;
-    transition: var(--tran-04);
-}
+
 .offScream{
     display: none;
 }

@@ -1,0 +1,11 @@
+.main{
+    position: relative;
+    left: 250px;
+    width: calc(100% - 250px);
+    height: 100%;
+    transition: var(--tran-04);
+}
+.sidebar.close ~ .main{
+    left: 88px;
+    width: calc(100% - 88px);
+}
