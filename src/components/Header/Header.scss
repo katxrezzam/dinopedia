@@ -5,17 +5,11 @@
     transition: var(--tran-05);
     padding: 1rem 2rem; 
     .search-box{
+        position: relative;
         display: flex;
         height: 50px;
         background-color: rgb(37, 40, 48);
         border-radius: .5rem;
-        input{
-            height: 100%;
-            width: 100%;
-            background-color: rgb(37, 40, 48);
-            padding: 1rem;
-            border-radius: .5rem;
-        }
         .icon{
             display: flex;
             justify-content: center;
@@ -24,10 +18,21 @@
             cursor: pointer;
             border-top-left-radius: .5rem;
             border-bottom-left-radius: .5rem;
+            svg{
+                font-size: 1.3rem;
+            }
         }
         .icon:hover{
             background-color: rgb(68, 72, 87);
         }
+    }
+    .search-result{
+        position: relative;
+        display: flex;
+        min-height: 75px;
+        background-color: white;
+        border-radius: .5rem;
+        color: black;
     }
 }
 .sidebar.close ~ .header{

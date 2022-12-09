@@ -1,11 +1,18 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { useState } from "react"
 import { Link } from "react-router-dom"
 import './SidebarLink.scss'
 
 
-const SidebarLink = ({path, icon, text}) => {
+const SidebarLink = ({path, icon, text, isClosed}) => {
+
+    const [hovered, setHovered] = useState(false)
+
     return(
-        <li className="sidebar-link">
+        <li className="sidebar-link" 
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
+        >
             <Link to={path}>
                 <span className="icon">
                     <FontAwesomeIcon icon={icon}/>
@@ -14,6 +21,9 @@ const SidebarLink = ({path, icon, text}) => {
                     {text}
                 </span>
             </Link>
+            {
+                isClosed && hovered && (<span className="link-text-closed">{text}</span>)
+            }
         </li>
     )
 }
