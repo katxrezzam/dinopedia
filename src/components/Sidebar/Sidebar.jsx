@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faAtlas,
     faBook,
+    faCaretDown,
     faCaretRight,
     faHome,
-    faImages,
-    faSearch,
+    faImages
 } from "@fortawesome/free-solid-svg-icons";
 import SidebarLink from "./SidebarLink/SidebarLink";
 import { useState } from "react";
@@ -26,7 +26,11 @@ const Sidebar = () => {
                     <span className="sidebar-title">Dinopedia</span>
                 </div>
                 <span className="toggle" onClick={() => setToggle(!toggle)}>
-                    <FontAwesomeIcon icon={faCaretRight} />
+                    {
+                        toggle 
+                           ? <FontAwesomeIcon icon={faCaretRight} />
+                           : <FontAwesomeIcon icon={faCaretDown} />
+                    }
                 </span>
             </header>
             <div className="menu-container">
