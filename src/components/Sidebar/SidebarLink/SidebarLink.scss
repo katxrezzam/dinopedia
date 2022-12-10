@@ -19,9 +19,10 @@
         transition: var(--tran-04);
     }
     a:hover{
-        background-color: rgb( 19, 20, 23);
+        background-color: var(--hover-color);
     }
     .link-text{
+
         transition: var(--tran-03);
         white-space: nowrap;
         opacity: 1;

@@ -20,14 +20,14 @@ const Header = () => {
                     query={query}
                     setQuery={setQuery}
                 />
+                {
+                    query && 
+                        (
+                            <SearchContainer result={query}/>
+                        )
+                }
             </div>
-            {
-                query &&
-                 
-                (
-                    <SearchContainer result={query}/>
-                )
-            }
+
         </header>
     )
 }

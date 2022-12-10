@@ -4,7 +4,7 @@
     left: 0;
     width: 250px;
     height: 100%;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     box-shadow: 0 5px 20px var(--bg-color);
     padding: 1.5rem 1rem;
     transition: var(--tran-05);
@@ -48,7 +48,7 @@
             cursor: pointer;
         }
         .toggle:hover{
-            background-color: rgb(78, 82, 98);
+            background-color: var(--hover-color);
         }
     }
     .menu-container{
