@@ -1,0 +1,14 @@
+.card{
+    width: 100%;
+    height: 100%;
+    box-shadow: var(--shadow-color);
+    background-color: #16161a;
+    border-radius: .5rem;
+    .icon{
+        svg{
+            width: 35px;
+            height: 35px;
+            filter: var(--svg-white);
+        }
+    }
+}

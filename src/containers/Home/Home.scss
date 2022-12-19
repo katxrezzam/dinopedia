@@ -1,0 +1,64 @@
+.home{
+    .home-header{
+        padding: 3rem 0;
+        .dino-info,.dino-card{
+            width: 100%;
+        }
+        .dino-info{
+            .dino-title{
+                h1{
+                    font-size: 3.5rem;
+                    font-weight: bolder;
+                }
+            }
+            .dino-content{
+                margin-top: 1rem;
+                font-size: 1.5rem;
+                text-align: justify;
+                line-height: 2.5rem;
+            }
+        }
+        .dino-card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .circle{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 19rem;
+                height: 19rem;
+                background-color: var(--bg-color);
+                border-radius: 50%;
+            }
+        }
+
+    }
+    .home-concepts{
+        .dino-circle{
+            width: 100%;
+            background-color: #1E1B20;
+            height: 450px;
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .wrapper{
+        display: flex;
+        .dino-info, .dino-card{
+            width: calc( 100% / 2);
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .dino-card{
+        margin: 5rem 0;
+    }
+    .dino-info{
+        .dino-title{
+            h1{
+                text-align: center;
+            }
+        }
+    }
+}

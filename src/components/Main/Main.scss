@@ -1,11 +1,9 @@
 .main{
     position: relative;
     left: 250px;
-    top: 60px;
     width: calc(100% - 250px);
-    height: calc(100% - 50px);
+    height: calc(100vh - 82px);
     transition: var(--tran-04);
-    padding: 4rem;
 }
 .sidebar.close ~ .main{
     left: 88px;
