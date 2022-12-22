@@ -7,9 +7,17 @@
 .offScream{
     display: none;
 }
-.wrapper {
+.width-wrapper {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 3rem;
+}
+.open{
+    background-color: var(--hover-color) !important;
+}
+@media (min-width: 1200px) {
+    .width-wrapper{
+        display: flex;
+    }
 }

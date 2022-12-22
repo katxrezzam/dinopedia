@@ -1,0 +1,44 @@
+.dialog{
+  padding: 2rem 3rem;
+  background-color: var(--bg-color);
+  max-width: 1200px;
+  height: 450px;
+  border-radius: .5rem;
+  box-shadow: var(--shadow-color);
+  position: relative;
+  .dialog-title{
+    margin-bottom: 2rem;
+    h1{
+      font-size: 2rem;
+    }
+  }
+  .dialog-content{
+    p{
+      font-size: 1.3rem;
+    }
+  }
+  .close{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background-color: #2C303A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+    svg{
+      font-size: 1.5rem;
+    }
+  }
+  .close:hover{
+    background-color: var(--hover-color);
+  }
+}
+@media (max-width: 1200px) {
+  .dialog{
+    max-width: 850px;
+  }
+}

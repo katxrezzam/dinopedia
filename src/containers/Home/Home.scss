@@ -30,24 +30,25 @@
                 height: 19rem;
                 background-color: var(--bg-color);
                 border-radius: 50%;
+                box-shadow: var(--shadow-color);
             }
         }
 
     }
     .home-concepts{
-        .dino-circle{
+        margin: 2rem 0;
+        .row-concepts{
             width: 100%;
-            background-color: #1E1B20;
-            height: 450px;
         }
     }
 }
 @media (min-width: 1200px) {
-    .wrapper{
-        display: flex;
-        .dino-info, .dino-card{
+
+    .dino-info, .dino-card{
             width: calc( 100% / 2);
-        }
+    }
+    .row-concepts{
+        display: flex;
     }
 }
 @media (max-width: 1200px) {

@@ -2,7 +2,7 @@ import '../Home.scss'
 const HomeHeader = () => {
     return(
         <header className={'home-header'}>
-            <div className="wrapper">
+            <div className="width-wrapper">
                 <div className="dino-info">
                     <span className='dino-title'>
                         <h1>Dinopedia</h1>
