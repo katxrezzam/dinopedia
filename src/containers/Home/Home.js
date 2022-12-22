@@ -1,6 +1,7 @@
 import './Home.scss'
 import HomeHeader from "./HomeHeader/HomeHeader";
 import HomeConcepts from "./HomeConcepts/HomeConcepts";
+import Modal from "../../components/Modal/Modal";
 const Home = () => {
 
     return(
