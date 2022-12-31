@@ -1,4 +1,5 @@
 import './Dialog.scss'
+import image from '../../../assets/img/dino-ico.png'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faXmark} from "@fortawesome/free-solid-svg-icons";
 const Dialog = ({ setIsOpen }) => {
@@ -12,6 +13,9 @@ const Dialog = ({ setIsOpen }) => {
                     quis unde voluptate. Commodi consectetur corporis debitis, esse, impedit itaque iure, nostrum
                     quaerat qui quo reprehenderit ut?
                 </p>
+                <div className="dialog-img">
+                    <img src={image} alt=""/>
+                </div>
             </div>
             <span className={'close'} onClick={() => setIsOpen(false)}>
                 <FontAwesomeIcon icon={faXmark}/>

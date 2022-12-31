@@ -1,13 +1,16 @@
 import './Home.scss'
 import HomeHeader from "./HomeHeader/HomeHeader";
 import HomeConcepts from "./HomeConcepts/HomeConcepts";
-import Modal from "../../components/Modal/Modal";
+import HomeGrid from "./HomeGrid/HomeGrid";
+import HomeNews from "./HomeNews/HomeNews";
 const Home = () => {
 
     return(
         <section className="home">
             <HomeHeader/>
             <HomeConcepts/>
+            <HomeNews/>
+            <HomeGrid/>
         </section>
     )
 }

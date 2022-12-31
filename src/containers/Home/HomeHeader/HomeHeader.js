@@ -13,7 +13,7 @@ const HomeHeader = () => {
                 </div>
                 <div className="dino-card">
                     <div className='circle'>
-                        Cosas
+                        things
                     </div>
                 </div>
             </div>

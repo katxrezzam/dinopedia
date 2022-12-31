@@ -1,15 +1,12 @@
-import './HomeExplain.scss'
-const HomeExplain = () => {
+const HomeGrid = () => {
     return(
-        <section className={'explain'}>
+        <section className='home-grid'>
             <div className="width-wrapper">
                 <div className="dino-grid">
-                    <div className="row">
 
-                    </div>
                 </div>
             </div>
         </section>
     )
 }
-export default HomeExplain
+export default HomeGrid

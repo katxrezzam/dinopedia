@@ -2,7 +2,7 @@
   padding: 2rem 3rem;
   background-color: var(--bg-color);
   max-width: 1200px;
-  height: 450px;
+  min-height: 450px;
   border-radius: .5rem;
   box-shadow: var(--shadow-color);
   position: relative;
@@ -15,6 +15,14 @@
   .dialog-content{
     p{
       font-size: 1.3rem;
+    }
+    .dialog-img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img{
+        width: 25rem;
+      }
     }
   }
   .close{
@@ -35,10 +43,5 @@
   }
   .close:hover{
     background-color: var(--hover-color);
-  }
-}
-@media (max-width: 1200px) {
-  .dialog{
-    max-width: 850px;
   }
 }

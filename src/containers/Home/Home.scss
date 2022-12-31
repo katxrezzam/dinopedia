@@ -12,6 +12,7 @@
                 }
             }
             .dino-content{
+                padding-left: 1.5rem;
                 margin-top: 1rem;
                 font-size: 1.5rem;
                 text-align: justify;
@@ -41,8 +42,14 @@
             width: 100%;
         }
     }
+    .home-news{
+        background-color: #1E1B20;
+        .news-title{
+            font-size: 2rem;
+        }
+    }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
 
     .dino-info, .dino-card{
             width: calc( 100% / 2);
@@ -51,7 +58,7 @@
         display: flex;
     }
 }
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .dino-card{
         margin: 5rem 0;
     }
@@ -62,4 +69,8 @@
             }
         }
     }
+}
+.hola{
+    animation-name: hola2;
+    position: relative;
 }

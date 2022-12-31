@@ -27,7 +27,7 @@ const Concept = () => {
                     }
                 </div>
             </div>
-            <Modal isOpen={isOpen}>
+            <Modal isOpen={isOpen} setIsOpen={setIsOpen}>
                 <Dialog setIsOpen={setIsOpen}/>
             </Modal>
         </>
